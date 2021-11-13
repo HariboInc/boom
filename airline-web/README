@@ -1,0 +1,13 @@
+To properly setup emails need to download the gmail credentials json and authorize the account locally first
+
+Then copy the credentials json and put it to `conf` folder with name `gmail-credentials.json` and copy the `tokens` to the app directory
+
+For google map api (for image search from server)
+
+set `google.apiKey` in `application.conf`
+
+Cities datasource
+http://download.geonames.org/export/dump/cities500.zip
+
+Airports/Runways datasource
+https://ourairports.com/data/
